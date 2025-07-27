@@ -25,22 +25,22 @@ const About: React.FC<AboutProps> = ({ isDark }) => {
 
   const certifications = [
     {
-      name: 'Generative AI Fundamentals',
+      name: 'GEN AI Using IBM Watsonx',
       provider: 'Google Cloud',
-      url: 'https://example.com/cert1',
+      url: 'https://courses.adroitprolearn.skillsnetwork.site/certificates/f1f18d0ec16847f185442bf375ec293d',
       icon: '🤖'
     },
     {
-      name: 'Machine Learning Specialization',
+      name: 'Supervised Machine Learning: Regression and Classification ',
       provider: 'Stanford & DeepLearning.AI',
-      url: 'https://example.com/cert2',
-      icon: '🧠'
+      url: 'https://www.coursera.org/account/accomplishments/records/36XYZDF5GIEL',
+      icon: '📈'
     },
     {
-      name: 'Deep Learning Specialization',
-      provider: 'DeepLearning.AI',
-      url: 'https://example.com/cert3',
-      icon: '🔬'
+      name: 'Advanced Learning Algorithms',
+      provider: 'Stanford & DeepLearning.AI',
+      url: 'https://www.coursera.org/account/accomplishments/records/KK2XND7IDE0Q',
+      icon: '🧠'
     }
   ];
 
