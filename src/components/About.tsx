@@ -62,8 +62,8 @@ const About: React.FC<AboutProps> = ({ isDark }) => {
               <div className="w-80 h-80 sm:w-96 sm:h-96 rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src={isDark 
-                    ? "doodle2.jpg"
-                    : "doodle1.avif"
+                    ? "/doodle2.jpg"
+                    : "/doodle1.avif"
                   }
                   alt="About Mrinali"
                   className="w-full h-full object-cover"
