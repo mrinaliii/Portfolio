@@ -16,22 +16,22 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           title: 'Fitness Blog',
           description: 'A dynamic fitness blog featuring health tips, workout routines, and nutrition advice.',
           technologies: ['HTML5', 'CSS3'],
-          code: 'https://github.com/mrinali-charhate/fitness-blog',
-          image: 'https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=500'
+          code: 'https://github.com/mrinaliii/FitnessBlog',
+          image: 'fitness.png'
         },
         {
           title: 'Gaming News Website',
           description: 'A modern gaming news platform with latest updates and reviews.',
           technologies: ['HTML5', 'CSS3'],
-          code: 'https://github.com/mrinali-charhate/gaming-news',
-          image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=500'
+          code: 'https://github.com/mrinaliii/GameGrid',
+          image: 'gamegrid.png'
         },
         {
           title: 'Productivity Dashboard',
           description: 'A dashboard with Pomodoro timer and Lo-fi music player to boost productivity.',
           technologies: ['HTML5', 'CSS3', 'JavaScript'],
-          code: 'https://github.com/mrinali-charhate/productivity-dashboard',
-          image: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=500'
+          code: 'https://github.com/mrinaliii/ProductivityDashboard',
+          image: 'lofi.png'
         }
       ]
     },
@@ -43,19 +43,19 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           title: 'Resort Website Design',
           description: 'A visually stunning resort website design created using Canva.',
           technologies: ['Canva'],
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=500'
+          image: 'resort.png'
         },
         {
           title: 'Arcs Website Redesign',
           description: 'Redesign for IEEE CS club\'s flagship event.',
           technologies: ['Figma'],
-          image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500'
+          image: 'arcs.png'
         },
         {
           title: 'HackBattle Website Redesign',
           description: 'Redesign for IEEE CS club\'s flagship event.',
           technologies: ['Figma'],
-          image: 'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=500'
+          image: 'hackbattle.jpg'
         }
       ]
     },
@@ -67,15 +67,15 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           title: 'Solar Energy RAG System',
           description: 'Built a sophisticated LangChain-powered Question-Answering system using Llama3 and Streamlit for intelligent querying of solar energy PDFs. Features advanced retrieval-augmented generation for accurate, context-aware responses.',
           technologies: ['LangChain', 'Llama3', 'Streamlit', 'Python', 'RAG'],
-          code: 'https://github.com/mrinali-charhate/solar-rag',
+          code: 'https://github.com/mrinaliii/RAG_Project',
           image: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=500'
         },
         {
           title: 'MedAssist Chatbot',
           description: 'Created an intelligent FastAPI-driven AI chatbot that analyzes user symptoms and suggests appropriate medical departments. Features real-time UI interactions and machine learning-based symptom analysis for accurate healthcare guidance.',
           technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'IBM WatsonX', 'NLP'],
-          code: 'https://github.com/mrinali-charhate/medassist',
-          image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=500'
+          code: 'https://github.com/mrinaliii/MedicalChatbot',
+          image: 'medaddist.jpg'
         }
       ]
     }
@@ -97,13 +97,13 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
   const getCategoryIcon = (title: string) => {
     switch (title) {
       case 'Frontend Development':
-        return '🎨';
+        return '';
       case 'UI/UX Design':
-        return '✨';
+        return '';
       case 'AI/ML Projects':
-        return '🤖';
+        return '';
       default:
-        return '💻';
+        return '';
     }
   };
 
