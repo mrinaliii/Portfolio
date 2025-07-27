@@ -93,7 +93,7 @@ const Hero: React.FC<HeroProps> = ({ isDark }) => {
               <div className="w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-gradient-to-tr from-blue-400 to-purple-500 p-2 shadow-2xl">
                 <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
                   <img
-                    src="pfp.jpg"
+                    src="/pfp.jpg"
                     alt="Mrinali Charhate"
                     className="w-full h-full object-cover rounded-full"
                   />
