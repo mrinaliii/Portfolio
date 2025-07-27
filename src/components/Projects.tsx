@@ -75,7 +75,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           description: 'Created an intelligent FastAPI-driven AI chatbot that analyzes user symptoms and suggests appropriate medical departments. Features real-time UI interactions and machine learning-based symptom analysis for accurate healthcare guidance.',
           technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'IBM WatsonX', 'NLP'],
           code: 'https://github.com/mrinaliii/MedicalChatbot',
-          image: '/medaddist.jpg'
+          image: '/medassist.jpg'
         }
       ]
     }
