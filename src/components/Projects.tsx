@@ -17,21 +17,21 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           description: 'A dynamic fitness blog featuring health tips, workout routines, and nutrition advice.',
           technologies: ['HTML5', 'CSS3'],
           code: 'https://github.com/mrinaliii/FitnessBlog',
-          image: 'fitness.png'
+          image: '/fitness.png'
         },
         {
           title: 'Gaming News Website',
           description: 'A modern gaming news platform with latest updates and reviews.',
           technologies: ['HTML5', 'CSS3'],
           code: 'https://github.com/mrinaliii/GameGrid',
-          image: 'gamegrid.png'
+          image: '/gamegrid.png'
         },
         {
           title: 'Productivity Dashboard',
           description: 'A dashboard with Pomodoro timer and Lo-fi music player to boost productivity.',
           technologies: ['HTML5', 'CSS3', 'JavaScript'],
           code: 'https://github.com/mrinaliii/ProductivityDashboard',
-          image: 'lofi.png'
+          image: '/lofi.png'
         }
       ]
     },
@@ -43,19 +43,19 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           title: 'Resort Website Design',
           description: 'A visually stunning resort website design created using Canva.',
           technologies: ['Canva'],
-          image: 'resort.png'
+          image: '/resort.png'
         },
         {
           title: 'Arcs Website Redesign',
           description: 'Redesign for IEEE CS club\'s flagship event.',
           technologies: ['Figma'],
-          image: 'arcs.png'
+          image: '/arcs.png'
         },
         {
           title: 'HackBattle Website Redesign',
           description: 'Redesign for IEEE CS club\'s flagship event.',
           technologies: ['Figma'],
-          image: 'hackbattle.jpg'
+          image: '/hackbattle.jpg'
         }
       ]
     },
@@ -75,7 +75,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           description: 'Created an intelligent FastAPI-driven AI chatbot that analyzes user symptoms and suggests appropriate medical departments. Features real-time UI interactions and machine learning-based symptom analysis for accurate healthcare guidance.',
           technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'IBM WatsonX', 'NLP'],
           code: 'https://github.com/mrinaliii/MedicalChatbot',
-          image: 'medaddist.jpg'
+          image: '/medaddist.jpg'
         }
       ]
     }
