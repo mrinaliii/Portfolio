@@ -26,7 +26,7 @@ const About: React.FC<AboutProps> = ({ isDark }) => {
   const certifications = [
     {
       name: 'GEN AI Using IBM Watsonx',
-      provider: 'Google Cloud',
+      provider: 'IBM',
       url: 'https://courses.adroitprolearn.skillsnetwork.site/certificates/f1f18d0ec16847f185442bf375ec293d',
       icon: '🤖'
     },
