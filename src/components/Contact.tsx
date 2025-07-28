@@ -48,7 +48,7 @@ const Contact: React.FC<ContactProps> = ({ isDark }) => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'mrinalicharhate@email.com',
+      value: 'mrinalicharhate@gmail.com',
       link: 'mailto:mrinalicharhate@email.com'
     },
     {
