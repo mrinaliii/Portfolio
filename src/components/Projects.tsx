@@ -9,7 +9,7 @@ interface ProjectsProps {
 const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
   const projectCategories: ProjectCategory[] = [
     {
-      title: 'Frontend Development',
+      title: 'Web Development',
       badgeColor: 'emerald',
       projects: [
         // {
@@ -22,7 +22,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         
         {
           title: 'Gaming News Website',
-          description: 'A modern gaming news platform with latest updates and reviews.',
+          description: 'A visually striking frontend web app designed with a modern RGB gaming theme, showcasing dynamic UI elements and responsive layouts tailored for gaming enthusiasts.',
           technologies: ['HTML5', 'CSS3'],
           code: 'https://github.com/mrinaliii/GameGrid',
           image: '/gamegrid.png'
@@ -37,7 +37,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         
         {
           title: 'Productivity Dashboard',
-          description: 'A dashboard with Pomodoro timer and Lo-fi music player to boost productivity.',
+          description: 'A sleek productivity tool featuring a Pomodoro timer, to-do list, and integrated Lofi music via the YouTube API—designed to help users stay focused and organized with a calming aesthetic.',
           technologies: ['HTML5', 'CSS3', 'JavaScript'],
           code: 'https://github.com/mrinaliii/ProductivityDashboard',
           image: '/lofi.png'
