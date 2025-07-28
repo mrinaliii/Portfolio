@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ isDark }) => {
 
   const downloadCV = () => {
     // Replace with actual CV URL
-    const cvUrl = 'MrinaliCharhateResume1pg.pdf';
+    const cvUrl = '/MrinaliCharhateResume1pg.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'Mrinali_Charhate_CV.pdf';
