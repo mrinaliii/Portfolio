@@ -12,13 +12,14 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
       title: 'Frontend Development',
       badgeColor: 'emerald',
       projects: [
-        {
-          title: 'Fitness Blog',
-          description: 'A dynamic fitness blog featuring health tips, workout routines, and nutrition advice.',
-          technologies: ['HTML5', 'CSS3'],
-          code: 'https://github.com/mrinaliii/FitnessBlog',
-          image: '/fitness.png'
-        },
+        // {
+        //   title: 'Fitness Blog',
+        //   description: 'A dynamic fitness blog featuring health tips, workout routines, and nutrition advice.',
+        //   technologies: ['HTML5', 'CSS3'],
+        //   code: 'https://github.com/mrinaliii/FitnessBlog',
+        //   image: '/fitness.png'
+        // },
+        
         {
           title: 'Gaming News Website',
           description: 'A modern gaming news platform with latest updates and reviews.',
@@ -26,6 +27,14 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           code: 'https://github.com/mrinaliii/GameGrid',
           image: '/gamegrid.png'
         },
+        {
+          title: 'Night Slip Tracker',
+          description: 'A web app built to streamline night slip applications and attendance tracking for VIT clubs, enabling secretaries to manage requests efficiently while keeping members informed with timely updates.',
+          technologies: ['HTML5', 'CSS3', 'React.js'],
+          code: 'https://github.com/Red2Ninja/mini_project',
+          image: '/nstracker.jpg'
+        },
+        
         {
           title: 'Productivity Dashboard',
           description: 'A dashboard with Pomodoro timer and Lo-fi music player to boost productivity.',
