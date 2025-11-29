@@ -81,8 +81,22 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         {
           title: 'MedAssist Chatbot',
           description: 'Created an intelligent FastAPI-driven AI chatbot that analyzes user symptoms and suggests appropriate medical departments. Features real-time UI interactions and machine learning-based symptom analysis for accurate healthcare guidance.',
-          technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'IBM WatsonX', 'NLP'],
-          code: 'https://github.com/mrinaliii/MedicalChatbot',
+          technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'Groq', 'NLP'],
+          code: 'https://github.com/mrinaliii/MedAssist',
+          image: '/medassist.jpg'
+        },
+        {
+          title: 'SkilForge (AWS-Based)',
+          description: 'A scalable serverless pipeline that tracks and analyzes skill-decay trends using AWS-native components. Features automated ingestion and transformation workflows with real-time updates and reliable distributed validation.',
+          technologies: ['AWS (Lambda, ECS, DynamoDB, ALB)', 'Python', 'Serverless', 'REST APIs'],
+          code: 'https://github.com/mrinaliii/SkillForge',
+          image: '/medassist.jpg'
+        },
+        {
+          title: 'Video Frame Reconstruction (Graph Optimization)',
+          description: 'A high-performance system that reconstructs jumbled video frames using similarity scoring and minimum-spanning-tree sequencing. Achieves 95% frame-order accuracy and optimized throughput on 300-frame datasets.',
+          technologies: ['Python', 'NumPy', 'Parallel Processing', 'Graph Algorithms', 'MST'],
+          code: 'https://github.com/mrinaliii/Video_Reconstruction',
           image: '/medassist.jpg'
         }
       ]
