@@ -9,6 +9,32 @@ interface ProjectsProps {
 const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
   const projectCategories: ProjectCategory[] = [
     {
+      title: 'AI/ML Projects',
+      badgeColor: 'orange',
+      projects: [
+        {
+          title: 'Solar Energy RAG System',
+          description: 'Built a sophisticated LangChain-powered Question-Answering system using Llama3 and Streamlit for intelligent querying of solar energy PDFs. Features advanced retrieval-augmented generation for accurate, context-aware responses.',
+          technologies: ['LangChain', 'Llama3', 'Streamlit', 'Python', 'RAG'],
+          image: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=500'
+        },
+        {
+          title: 'MedAssist Chatbot',
+          description: 'Created an intelligent FastAPI-driven AI chatbot that analyzes user symptoms and suggests appropriate medical departments. Features real-time UI interactions and machine learning-based symptom analysis for accurate healthcare guidance.',
+          technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'Groq', 'NLP'],
+          code: 'https://github.com/mrinaliii/MedAssist',
+          image: '/medassist.jpg'
+        },
+        {
+          title: 'Video Frame Reconstruction (Graph Optimization)',
+          description: 'A high-performance system that reconstructs jumbled video frames using similarity scoring and minimum-spanning-tree sequencing. Achieves 95% frame-order accuracy and optimized throughput on 300-frame datasets.',
+          technologies: ['Python', 'NumPy', 'Parallel Processing', 'Graph Algorithms', 'MST'],
+          code: 'https://github.com/mrinaliii/Video_Reconstruction',
+          image: '/vidrec.jpg'
+        }
+      ]
+    },
+    {
       title: 'Web Development',
       badgeColor: 'emerald',
       projects: [
@@ -44,6 +70,28 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         }
       ]
     },
+    
+    {
+      title: 'Information Security Projects',
+      badgeColor: 'yellow',
+      projects: [
+        
+        {
+          title: 'SkilForge (AWS-Based)',
+          description: 'A scalable serverless pipeline that tracks and analyzes skill-decay trends using AWS-native components, featuring secure ingestion, controlled access, and reliable validation across distributed workflows.',
+          technologies: ['AWS (Lambda, ECS, DynamoDB, ALB)', 'Python', 'Serverless', 'REST APIs'],
+          code: 'https://github.com/mrinaliii/SkillForge',
+          image: '/skillforge.jpg'
+        },
+        {
+          title: 'SecureSense: AI-Powered Data Protection',
+          description: 'A production-grade sensitive data detection system combining regex patterns with transformer embeddings for PII/PHI classification. Implements anomaly detection for suspicious access patterns and provides a secure REST API with comprehensive audit logging.',
+          technologies: ['Python', 'FastAPI', 'Machine Learning', 'Cybersecurity', 'Docker'],
+          code: 'https://github.com/mrinaliii/SecureSense',
+          image: '/secsen.jpg'
+        }
+      ]
+    },
     {
       title: 'UI/UX Design',
       badgeColor: 'purple',
@@ -68,53 +116,6 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         }
       ]
     },
-    {
-      title: 'AI/ML Projects',
-      badgeColor: 'orange',
-      projects: [
-        {
-          title: 'Solar Energy RAG System',
-          description: 'Built a sophisticated LangChain-powered Question-Answering system using Llama3 and Streamlit for intelligent querying of solar energy PDFs. Features advanced retrieval-augmented generation for accurate, context-aware responses.',
-          technologies: ['LangChain', 'Llama3', 'Streamlit', 'Python', 'RAG'],
-          image: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=500'
-        },
-        {
-          title: 'MedAssist Chatbot',
-          description: 'Created an intelligent FastAPI-driven AI chatbot that analyzes user symptoms and suggests appropriate medical departments. Features real-time UI interactions and machine learning-based symptom analysis for accurate healthcare guidance.',
-          technologies: ['FastAPI', 'Machine Learning', 'Python', 'Real-time UI', 'Groq', 'NLP'],
-          code: 'https://github.com/mrinaliii/MedAssist',
-          image: '/medassist.jpg'
-        },
-        {
-          title: 'Video Frame Reconstruction (Graph Optimization)',
-          description: 'A high-performance system that reconstructs jumbled video frames using similarity scoring and minimum-spanning-tree sequencing. Achieves 95% frame-order accuracy and optimized throughput on 300-frame datasets.',
-          technologies: ['Python', 'NumPy', 'Parallel Processing', 'Graph Algorithms', 'MST'],
-          code: 'https://github.com/mrinaliii/Video_Reconstruction',
-          image: '/vidrec.jpg'
-        }
-      ]
-    },
-    {
-      title: 'Information Security Projects',
-      badgeColor: 'yellow',
-      projects: [
-        
-        {
-          title: 'SkilForge (AWS-Based)',
-          description: 'A scalable serverless pipeline that tracks and analyzes skill-decay trends using AWS-native components, featuring secure ingestion, controlled access, and reliable validation across distributed workflows.',
-          technologies: ['AWS (Lambda, ECS, DynamoDB, ALB)', 'Python', 'Serverless', 'REST APIs'],
-          code: 'https://github.com/mrinaliii/SkillForge',
-          image: '/skillforge.jpg'
-        },
-        {
-          title: 'SecureSense: AI-Powered Data Protection',
-          description: 'A production-grade sensitive data detection system combining regex patterns with transformer embeddings for PII/PHI classification. Implements anomaly detection for suspicious access patterns and provides a secure REST API with comprehensive audit logging.',
-          technologies: ['Python', 'FastAPI', 'Machine Learning', 'Cybersecurity', 'Docker'],
-          code: 'https://github.com/mrinaliii/SecureSense',
-          image: '/secsen.jpg'
-        }
-      ]
-    }
   ];
 
   const getBadgeColor = (category: string) => {
