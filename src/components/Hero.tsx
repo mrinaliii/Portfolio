@@ -63,8 +63,7 @@ const Hero: React.FC<HeroProps> = ({ isDark }) => {
               </h2>
             </div>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
-              Aspiring CSE student passionate about AI/ML, full-stack software development, and technology. 
-              Crafting digital experiences with code and creativity.
+              Exploring the intersections of AI, software engineering, and security to build useful, well-crafted digital experiences.
             </p>
             
             {/* Action Buttons */}
