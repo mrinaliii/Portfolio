@@ -86,6 +86,20 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           image: '/medassist.jpg'
         },
         {
+          title: 'Video Frame Reconstruction (Graph Optimization)',
+          description: 'A high-performance system that reconstructs jumbled video frames using similarity scoring and minimum-spanning-tree sequencing. Achieves 95% frame-order accuracy and optimized throughput on 300-frame datasets.',
+          technologies: ['Python', 'NumPy', 'Parallel Processing', 'Graph Algorithms', 'MST'],
+          code: 'https://github.com/mrinaliii/Video_Reconstruction',
+          image: '/vidrec.jpg'
+        }
+      ]
+    },
+    {
+      title: 'Information Security Projects',
+      badgeColor: 'yellow',
+      projects: [
+        
+        {
           title: 'SkilForge (AWS-Based)',
           description: 'A scalable serverless pipeline that tracks and analyzes skill-decay trends using AWS-native components. Features automated ingestion and transformation workflows with real-time updates and reliable distributed validation.',
           technologies: ['AWS (Lambda, ECS, DynamoDB, ALB)', 'Python', 'Serverless', 'REST APIs'],
@@ -93,10 +107,10 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           image: '/skillforge.jpg'
         },
         {
-          title: 'Video Frame Reconstruction (Graph Optimization)',
-          description: 'A high-performance system that reconstructs jumbled video frames using similarity scoring and minimum-spanning-tree sequencing. Achieves 95% frame-order accuracy and optimized throughput on 300-frame datasets.',
+          title: 'SecureSense: AI-Powered Data Protection',
+          description: 'A production-grade sensitive data detection system combining regex patterns with transformer embeddings for PII/PHI classification. Implements anomaly detection for suspicious access patterns and provides a secure REST API with comprehensive audit logging.',
           technologies: ['Python', 'NumPy', 'Parallel Processing', 'Graph Algorithms', 'MST'],
-          code: 'https://github.com/mrinaliii/Video_Reconstruction',
+          code: 'https://github.com/mrinaliii/SecureSense',
           image: '/vidrec.jpg'
         }
       ]
