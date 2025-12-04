@@ -101,7 +101,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         
         {
           title: 'SkilForge (AWS-Based)',
-          description: 'A scalable serverless pipeline that tracks and analyzes skill-decay trends using AWS-native components. Features automated ingestion and transformation workflows with real-time updates and reliable distributed validation.',
+          description: 'A scalable serverless pipeline that tracks and analyzes skill-decay trends using AWS-native components, featuring secure ingestion, controlled access, and reliable validation across distributed workflows.',
           technologies: ['AWS (Lambda, ECS, DynamoDB, ALB)', 'Python', 'Serverless', 'REST APIs'],
           code: 'https://github.com/mrinaliii/SkillForge',
           image: '/skillforge.jpg'
@@ -109,9 +109,9 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         {
           title: 'SecureSense: AI-Powered Data Protection',
           description: 'A production-grade sensitive data detection system combining regex patterns with transformer embeddings for PII/PHI classification. Implements anomaly detection for suspicious access patterns and provides a secure REST API with comprehensive audit logging.',
-          technologies: ['Python', 'NumPy', 'Parallel Processing', 'Graph Algorithms', 'MST'],
+          technologies: ['Python', 'FastAPI', 'Machine Learning', 'Cybersecurity', 'Docker'],
           code: 'https://github.com/mrinaliii/SecureSense',
-          image: '/vidrec.jpg'
+          image: '/secsen.jpg'
         }
       ]
     }
