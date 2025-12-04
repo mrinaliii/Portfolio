@@ -16,7 +16,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           title: 'Solar Energy RAG System',
           description: 'Built a sophisticated LangChain-powered Question-Answering system using Llama3 and Streamlit for intelligent querying of solar energy PDFs. Features advanced retrieval-augmented generation for accurate, context-aware responses.',
           technologies: ['LangChain', 'Llama3', 'Streamlit', 'Python', 'RAG'],
-          image: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=500'
+          image: '/solar.jpg'
         },
         {
           title: 'MedAssist Chatbot',
