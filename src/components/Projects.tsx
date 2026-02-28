@@ -72,7 +72,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
     },
     
     {
-      title: 'Information Security Projects',
+      title: 'AWS and Security Projects',
       badgeColor: 'yellow',
       projects: [
         
@@ -86,7 +86,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         {
           title: 'SecureSense: AI-Powered Data Protection',
           description: 'A production-grade sensitive data detection system combining regex patterns with transformer embeddings for PII/PHI classification. Implements anomaly detection for suspicious access patterns and provides a secure REST API with comprehensive audit logging.',
-          technologies: ['Python', 'FastAPI', 'Machine Learning', 'Cybersecurity', 'Docker'],
+          technologies: ['Python', 'FastAPI', 'Machine Learning', 'Cybersecurity', 'Transformers'],
           code: 'https://github.com/mrinaliii/SecureSense',
           image: '/secsen.jpg'
         }
